@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Api_Fetcher</string>
+    <string name="products">Products</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="error_secondary_title">Tap the button below to reload</string>
+    <string name="reload">Reload</string>
 </resources>
