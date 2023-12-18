@@ -4,7 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import com.example.api_fetcher.data.connectivity.ConnectivityCheckerImpl
 import com.example.api_fetcher.data.remote.service.StoreApiService
-import com.example.huc_app.data.connectivity.ConnectivityChecker
+import com.example.api_fetcher.data.connectivity.ConnectivityChecker
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

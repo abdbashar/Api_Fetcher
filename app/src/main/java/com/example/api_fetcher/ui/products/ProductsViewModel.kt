@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.api_fetcher.domain.CheckConnectivityUseCase
-import com.example.api_fetcher.domain.GetProductsUseCase
+import com.example.api_fetcher.domain.usecase.CheckConnectivityUseCase
+import com.example.api_fetcher.domain.usecase.GetProductsUseCase
 import com.example.api_fetcher.ui.products.productUIMapper.ProductUIMapper
 import com.example.api_fetcher.ui.products.productsUIState.GetProductsUIState
 import com.example.api_fetcher.ui.products.productsUIState.ProductUIState

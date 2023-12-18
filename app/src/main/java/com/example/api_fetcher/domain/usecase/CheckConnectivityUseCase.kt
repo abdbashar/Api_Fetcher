@@ -1,6 +1,6 @@
 package com.example.api_fetcher.domain.usecase
 
-import com.example.huc_app.data.connectivity.ConnectivityChecker
+import com.example.api_fetcher.data.connectivity.ConnectivityChecker
 import javax.inject.Inject
 
 class CheckConnectivityUseCase @Inject constructor(
