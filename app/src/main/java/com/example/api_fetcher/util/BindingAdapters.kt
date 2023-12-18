@@ -1,6 +1,8 @@
 package com.example.api_fetcher.util
 
+import android.view.View
 import android.widget.ImageView
+import androidx.core.view.isVisible
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -21,3 +23,7 @@ fun <T> setRecyclerItems(view: RecyclerView, items: List<T>?) {
     view.scrollToPosition(0)
 }
 
+@BindingAdapter("showIfTrue")
+fun showIfTrue(view: View, condition: Boolean) {
+    view.isVisible = condition
+}
